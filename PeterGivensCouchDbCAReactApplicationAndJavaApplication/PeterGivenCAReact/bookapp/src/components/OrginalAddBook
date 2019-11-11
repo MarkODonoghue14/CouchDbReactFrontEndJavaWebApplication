@@ -1,0 +1,19 @@
+    <div className="container">
+                <div className='form-group'>
+                    <label htmlFor="title">Book Title</label>
+                    <input className="form-control" ref="title" type="text" name="title" placeholder="Enter the title of the book you wish to add..." onChange={(event) => this.handleChange(event)}/>
+                </div>
+                <div className='form-group'>
+                    <label htmlFor="description">Book Description</label>
+                    <input className="form-control" ref="description" type="text" name="description" placeholder="Enter the description of the book you wish to add..." onChange={(event) => this.handleChange(event)}/>
+                </div>
+                <div className='form-group'>
+                    <label htmlFor="genre">Genre </label>
+                    <input className="form-control" ref="genre" type="text" name="genre" placeholder="Enter the genre of the book you wish to add..." onChange={(event) => this.handleChange(event)}/>
+                </div>
+                <div className='form-group'>
+                    <label htmlFor="author">Author </label>
+                    <input className="form-control" ref="author" type="text" name="author" placeholder="Enter the author of the book you wish to add..." onChange={(event) => this.handleChange(event)}/>
+                </div>
+                <div className='form-group'><button className="btn btn-primary" Button color = "success" onClick={this.addBook.bind(this)}>Confirm</button></div>
+            </div>

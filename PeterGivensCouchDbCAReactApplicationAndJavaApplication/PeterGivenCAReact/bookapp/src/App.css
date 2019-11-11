@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color:red;
+}
+
+
+
+.BookTableComponent-header {
+  background-color: #282c34;
+  color: white;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+body{
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.navbar-default .navbar-brand {
+  color: #d6d6d6;
+}

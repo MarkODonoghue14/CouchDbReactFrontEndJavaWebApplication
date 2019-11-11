@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color:lightskyblue;
+}
+
+.App.FooterComponent {padding-top: 20%;}
+
+.page-footer {padding-top: 13%}
+
+
+.App-logo {
+  height: 40vmin;
+}
+.App.NavBarComponent.a {color:white}
+
+body{
+  background-color: #282c34;
+  color : red;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.navbar-default .navbar-brand {
+  color: #d6d6d6;
+}
